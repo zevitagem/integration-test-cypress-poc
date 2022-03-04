@@ -12,3 +12,5 @@ $ npm run lint:fix
 - [Regras do eslint caso algum erro seja exibido](https://eslint.org/docs/rules/)
 - [Codestyle utilizado no projeto](https://github.com/airbnb/javascript)
 - [Documentação do cypress](https://docs.cypress.io/)
+
+![alt text](https://github.com/zevitagem/tests-cypress-poc/blob/master/github/images/cypress-print.png?raw=true&&s=100)
