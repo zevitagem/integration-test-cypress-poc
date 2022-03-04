@@ -1,0 +1,30 @@
+{
+    "projectId": "ms-tests-cypress-ms-fees",
+    "video": false,
+    "viewportWidth": 1400,
+    "viewportHeight": 860,
+    "chromeWebSecurity": false,
+    "numTestsKeptInMemory": 1,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "overwrite": false,
+      "html": false,
+      "json": false
+    },
+    "screenshotsFolder": "cypress/snapshots/actual",
+    "screenshotOnRunFailure": false,
+    "trashAssetsBeforeRuns": true,
+
+    "appEnvironment" : {
+      "PRODUCT" : "P2PP2P",
+      "TOKEN_EXPIRE_MINUTES" : 9,
+      "TOKEN_START_DATE": 0,
+      "AUTH_TOKEN": null
+    },
+
+    "urlBase": "http://localhost:9501/api/v1",
+    "headers": {
+      "Content-Type": "application/json",
+      "domain": "picpay"
+    }
+}
