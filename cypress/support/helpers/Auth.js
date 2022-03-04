@@ -32,7 +32,7 @@ class Auth {
   }
 
   authenticate(product) {
-    var config = this.getConfig()
+    let config = this.getConfig()
 
     let tokenStartDate = config.TOKEN_START_DATE,
       currentToken = config.AUTH_TOKEN,

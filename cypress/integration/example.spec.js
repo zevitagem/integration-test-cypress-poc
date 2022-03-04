@@ -1,4 +1,3 @@
-import assertionExample from '../support/assertions/assertion-example'
 import Auth from '../support/helpers/Auth'
 
 const configIndex = 'appEnvironment'

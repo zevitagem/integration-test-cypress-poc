@@ -1,6 +1,6 @@
 class AuthRequester {
   generateToken(product, alias = 'generateToken') {
-    var urlBase = Cypress.config('urlBase'),
+    let urlBase = Cypress.config('urlBase'),
       headers = Cypress.config('headers')
 
     return cy
